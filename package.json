@@ -1,0 +1,47 @@
+{
+  "name": "Authentication",
+  "version": "1.0.0",
+  "description": "Authentication with mongodb and Koa",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc server.ts",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ydlamia/Authentication.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ydlamia/Authentication/issues"
+  },
+  "homepage": "https://github.com/ydlamia/Authentication#readme",
+  "dependencies": {
+    "@types/crypto-js": "^3.1.43",
+    "@types/dotenv": "^8.2.0",
+    "@types/koa": "^2.0.52",
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa-logger": "^3.1.1",
+    "@types/koa-router": "^7.0.42",
+    "@types/koa-static": "^4.0.1",
+    "@types/logger": "0.0.0",
+    "@types/mongodb": "^3.3.10",
+    "@types/sha256": "^0.2.0",
+    "awilix-koa": "^4.0.0",
+    "crypto-ts": "^1.0.2",
+    "dotenv": "^8.2.0",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "logger": "0.0.1",
+    "mongodb": "^3.3.4",
+    "nodemon": "^1.19.4",
+    "sha256": "^0.2.0",
+    "ts-node": "^8.5.2",
+    "tsc": "^1.20150623.0"
+  }
+}
